@@ -12,39 +12,48 @@
     margin: 5px;
 }
 
-.contact_form {
-    width: 40%;
-    height: 450px;
-    padding: 24px;
-    background-color: rgba(0, 0, 0, 0.6);
-    margin-top: 40px;
+.contact_details{
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    border-radius: 5px;
+    justify-content: space-around;
+    padding: 100px 40px;
 }
 
-.contact_form label,
-.contact_form input {
-    margin-bottom: 5px;
+.contact_details_box{
+    display: flex;
+    align-items: center;
 }
 
-.contact_form input,
-.contact_form select {
-    height: 30px;
+.contact_details_title{
+    font-weight: 600;
+    font-size: 26px;
+    margin-top: 0;
+}
+.contact_details svg{
+    font-size: 36px;
 }
 
-.contact_form select {
-    width: 40%;
+.icon_wrapper{
+padding: 12px;
+background-color: rgba(0, 0, 0, 0.6);
+margin-right: 24px;
+border: solid 2px #fff;
+border-radius: 8px;
 }
 
-.contact_form button {
-    border: none;
-    width: 200px;
-    background-color: #FD7013;
-    color: #ffffff;
-    align-self: flex-end;
-    padding: 10px;
-    border-radius: 25px;
-    font-size: 1em;
+@media (max-width: 600px) {
+    .contact_details{
+        flex-direction: column;
+    }
+
+    .main_title h1 {
+        font-size: 24px;
+    }
+
+    .contact_details_title{
+        font-size: 18px;
+    }
+    
+    .contact_details_box{
+        margin: 8px 0;
+    }
 }

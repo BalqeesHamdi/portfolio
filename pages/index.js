@@ -15,44 +15,12 @@ export default function Home() {
   const [showMenu, setShowMenu] = useState(false);
   const [expand, setExpand] = useState('intro');
 
-  // const expand = (id) => {
-  //   const elem = document.getElementsByClassName("section");
-
-  //   const allOverlays = document.getElementsByClassName(styles.overlay);
-  //   const overlay = document
-  //     .getElementById(`${id}`)
-  //     .getElementsByClassName(styles.overlay);
-
-  //   const allText = document.getElementsByClassName(styles.content);
-  //   const text = document
-  //     .getElementById(`${id}`)
-  //     .getElementsByClassName(styles.content);
-
-  //   Object.keys(elem).forEach(function (key, index) {
-  //     elem[key].style.width = "16%";
-  //     Object.keys(allText).forEach(function (key, index) {
-  //       allText[key].style.display = "none";
-  //     });
-  //   });
-
-  //   Object.keys(allOverlays).forEach(function (key, index) {
-  //     allOverlays[key].style.background =
-  //       "linear-gradient(0deg, rgba(0, 0, 0, 0.8475723052893032) 0%, rgba(0, 0, 0, 0.5142389719559699) 47%, rgba(0, 0, 0, 0) 100%)";
-  //   });
-
-  //   document.getElementById(`${id}`).style.width = "80%";
-
-  //   Object.keys(overlay).forEach(function (key, index) {
-  //     overlay[key].style.background = "none";
-  //   });
-  //   Object.keys(text).forEach(function (key, index) {
-  //     text[key].style.display = "flex";
-  //   });
-  // };
-
   return (
     <>
       <div className="mobile_only">
+        <h2>
+          <Link href="/">بلقيس حمدي</Link>
+        </h2>
         <Hamburger
           Direction="right"
           color="#FFF"
@@ -86,10 +54,10 @@ export default function Home() {
             <h1>About</h1>
             <div className={styles.content}>
               <p>
-                i am a{' '}
+                i am a
                 <span style={{ color: '#FD7013' }}>
                   Front-end Software Developer
-                </span>{' '}
+                </span>
                 and a <span style={{ color: '#FD7013' }}> UI-UX designer </span>
                 with 3 years of experience in Web, and Mobile Development using
                 javascript and libraries like React, React Native and more.
@@ -369,7 +337,7 @@ export default function Home() {
           <h4>Download my CV</h4>
         </a>
       </div>
-      <ul class="circles">
+      <ul className="circles">
         <li></li>
         <li></li>
         <li></li>

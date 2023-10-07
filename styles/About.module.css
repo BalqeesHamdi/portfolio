@@ -42,3 +42,17 @@
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+@media (max-width: 600px) {
+    .two_columns div,.row div{
+        width: 100% !important;
+    }
+
+    .row div {
+        margin-right: 0 !important;
+    }
+    .main_title h1{
+font-size: 32px;
+    }
+    
+}

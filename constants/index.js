@@ -1,4 +1,4 @@
-export const PROJECTS = [
+export const WEBPROJECTS = [
   { name: 'My Mentor', description: 'Online mentoring platform', coverPhoto: '/mymentor.jpg',url:'',type:'Individual Efforts' },
   { name: 'Mutasim Nimir Centre', description: 'Mutasim Nimir Centre for Environmental Culture official website', coverPhoto: '/mncec.png',url:'',type:'Team Efforts' },
   { name: 'Eptikar IT Solutions', description: 'The company\'s official website', coverPhoto: '/eitwebsite.png',url:'',type:'Team Efforts' },
@@ -8,4 +8,25 @@ export const PROJECTS = [
   { name: 'ECCS', description: 'European Chamber of Commerce in Sudan official website', coverPhoto: '/eccs.png',url:'',type:'Team Efforts' },
   { name: 'Sudan National Business Agenda', description: 'The project\'s official website', coverPhoto: '/nba.png',url:'',type:'Team Efforts' },
   { name: 'My Personal Portfolio V 1.0', description: 'The previous version of my portfolio', coverPhoto: '/portfolio.png',url:'',type:'Individual Efforts' },
+  { name: 'My Personal Portfolio V 2.0', description: 'This current version of my portfolio', coverPhoto: '/portfolio_2.png',url:'',type:'Individual Efforts' },
+  { name: 'Bawader ICT Solutions', description: 'The company\'s official website', coverPhoto: '/bawader_ict.png',url:'',type:'Team Efforts' },
+  { name: 'Kwenda', description: 'Flight Booking Engine', coverPhoto: '/kwenda.png',url:'',type:'Team Efforts' },
+];
+
+export const UIPROJECTS = [
+  { name: 'My Mentor wireframe', description: 'Online mentoring platform web design using figma', coverPhoto: '/mymenotr_ui.png',url:'https://www.figma.com/file/3QR2g22o4YEYf3yWwyoKxv/Untitled?node-id=0%3A1&t=ZToWNpkJEvc9AJ7Z-1'},
+  { name: 'Import and export platform wirframe', description: 'Online Import and export platform web design using figma', coverPhoto: '/import_export_platform.png',url:'https://www.figma.com/file/hIOaYUzpGYX4qd5ysz3dKF/import%2Fexport?node-id=0%3A1&t=ZToWNpkJEvc9AJ7Z-1'},
+  { name: 'Mutasim Nimir Centre', description: 'Mutasim Nimir Centre for Environmental Culture official website', coverPhoto: '/mncec.png',url:''},
+  { name: 'Eptikar IT Solutions', description: 'The company\'s official website', coverPhoto: '/eitwebsite.png',url:''},
+  { name: 'Savannah Innovation Labs', description: 'The organization\'s official website', coverPhoto: '/savannah.png',url:''},
+  { name: 'CivilEd', description: 'Online learning platform', coverPhoto: '/CivilEd.png',url:''},
+  { name: 'Damancash Donation Campaign', description: 'Online donations website', coverPhoto: '/donation.png',url:''},
+  { name: 'ECCS', description: 'European Chamber of Commerce in Sudan official website', coverPhoto: '/eccs.png',url:''},
+  { name: 'Sudan National Business Agenda', description: 'The project\'s official website', coverPhoto: '/nba.png',url:''},
+  { name: 'My Personal Portfolio V 1.0', description: 'The previous version of my portfolio', coverPhoto: '/portfolio.png',url:''},
+  { name: 'My Personal Portfolio V 2.0', description: 'The current version of my portfolio', coverPhoto: '/portfolio_2.png',url:''},
+  { name: 'SEF Academy Website Design', description: 'Online Learning platform', coverPhoto: '/seff.png',url:''},
+  { name: 'Kwenda', description: 'Flight Booking Engine', coverPhoto: '/kwenda.png',url:'' },
+  { name: 'Bawader ICT Solutions', description: 'The company\'s official website', coverPhoto: '/bawader_ict.png',url:'',type:'Team Efforts' },
+  { name: 'Ideal Skin Services', description: 'Beauty Salon Booking Website', coverPhoto: '/idealskinservices.png',url:'' },
 ];

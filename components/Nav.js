@@ -16,9 +16,9 @@ const Nav = () => {
         <ul className="hide">
           <li>
             <Link
-              href="about"
+              href="About"
               style={
-                router.pathname == '/about'
+                router.pathname == '/About'
                   ? { color: '#FD7013' }
                   : { color: '#fff' }
               }
@@ -31,9 +31,9 @@ const Nav = () => {
           <li>Awards</li> */}
           <li>
             <Link
-              href="experience"
+              href="Experience"
               style={
-                router.pathname == '/experience'
+                router.pathname == '/Experience'
                   ? { color: '#FD7013' }
                   : { color: '#fff' }
               }
@@ -43,9 +43,9 @@ const Nav = () => {
           </li>
           <li>
             <Link
-              href="projects"
+              href="Projects"
               style={
-                router.pathname == '/projects'
+                router.pathname == '/Projects'
                   ? { color: '#FD7013' }
                   : { color: '#fff' }
               }
@@ -55,9 +55,9 @@ const Nav = () => {
           </li>
           <li>
             <Link
-              href="contact"
+              href="Contact"
               style={
-                router.pathname == '/contact'
+                router.pathname == '/Contact'
                   ? { color: '#FD7013' }
                   : { color: '#fff' }
               }
@@ -66,7 +66,7 @@ const Nav = () => {
             </Link>
           </li>
         </ul>
-        <div className="mobile_only" style={{ width: '50%' }}>
+        <div className="mobile_only">
           <Hamburger
             Direction="right"
             color="#FFF"

@@ -183,6 +183,12 @@
     display: block;
   }
 
+ .edu_box .year{
+    width: 34%;
+  }
+  .edu_box div{
+    margin-bottom: 16px;
+  }
 }
 
 @keyframes fadeIn {

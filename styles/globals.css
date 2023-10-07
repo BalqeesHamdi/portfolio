@@ -247,6 +247,11 @@ ul {
   display: none !important;
 }
 
+.back_arrow{
+  cursor: pointer;
+  font-size: 40px;
+}
+
 @media (max-width: 600px) {
   .hide_desktop {
     display: flex !important;
@@ -256,6 +261,14 @@ ul {
     display: block;
     width: 100%;
     display: flex;
-    justify-content: right;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: 'Cairo Play', cursive;
+    color: #fff;
+    align-items: center;
   }
+
+  .back_arrow{
+    font-size: 28px;
+}
 }

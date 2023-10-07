@@ -1,0 +1,104 @@
+.main_container {
+    padding: 40px 5%;
+    color: #eee;
+}
+
+.main_title {
+    font-size: 50px;
+}
+
+.title_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.companies_main_container{
+display: flex;
+justify-content: space-between;
+}
+
+.companies_container{
+    width: 35%;
+}
+
+.company_show{
+    margin-top: 40px;
+    width: 60%;
+}
+
+.company_show_header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.company_show_header img {
+  margin-right: 40px;
+}
+
+.experience_Box div div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.experience_Box {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 24px 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 24px;
+}
+
+.experience_Box :hover{
+  cursor: pointer;
+}
+
+.experience_Box p {
+  margin-top: 12px;
+}
+
+.experience_Box div:nth-child(2) {
+    margin: 0 20px;
+}
+
+.edu_box {
+  margin-bottom: 20px;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+}
+
+.company_show_description{
+font-size: 1.2em;
+margin-top: 24px;
+width: 80%;
+}
+
+.list{
+  list-style: inside;
+  margin-top: 40px;
+}
+
+.list li {
+  margin: 12px 0;
+}
+
+@media (max-width: 600px) {
+  .main_title {
+    font-size: 24px;
+}
+
+  .companies_main_container{
+    flex-direction: column;
+  }
+
+  .company_show,.companies_container,.company_show_description{
+    width: 100%;
+  }
+
+}

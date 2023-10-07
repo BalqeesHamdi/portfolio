@@ -14,7 +14,7 @@ import { RiBriefcase4Line } from 'react-icons/ri';
 import { DiMongodb } from 'react-icons/di';
 import { SiAdobeacrobatreader, SiMysql, SiStrapi } from 'react-icons/si';
 
-const about = () => {
+const About = () => {
   return (
     <>
       <div className="main_container">
@@ -239,4 +239,4 @@ const about = () => {
   );
 };
 
-export default about;
+export default About;
