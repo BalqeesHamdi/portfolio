@@ -152,6 +152,30 @@
   font-weight: 600;
 }
 
+.mobile_item{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 24px;
+  margin: 12px 0;
+  cursor: pointer;
+}
+
+.mobile_nav_items{
+  flex-direction: column;
+  width: 100%;
+  padding: 0;
+  margin: 40px 0;
+}
+
+.mobile_home_nav{
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 0 24px;
+  margin-bottom: 12px;
+}
+
 @media (max-width: 600px) {
   .container {
     flex-direction: column-reverse;

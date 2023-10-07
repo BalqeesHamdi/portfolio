@@ -10,9 +10,9 @@ const Contact = () => {
     <>
       <div className="main_container">
         <div className={styles.main_title}>
-          <h1>Let's work together !</h1>
+          <h1>Let&apos;s work together !</h1>
           <p>
-            Have a website that you'd like to create? let me help you with that
+            Have a website that you&apos;d like to create? let me help you with that
           </p>
         </div>
         <div className={styles.contact_details}>

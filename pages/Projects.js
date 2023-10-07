@@ -96,7 +96,7 @@ const Projects = (props) => {
               </h1>
               <FaArrowAltCircleLeft className="back_arrow" onClick={() => setShow('main')} />
             </div>
-            <p>Any project tagged with "<span style={{color:'#FD7013'}}>Team Efforts</span>" was done with the great help and supervision of the great development team at Eptikar IT Solutions </p>
+            <p>Any project tagged with &quot;<span style={{color:'#FD7013'}}>Team Efforts</span>&quot; was done with the great help and supervision of the great development team at Eptikar IT Solutions </p>
           </div>
           <div className={styles.projects}>
             {

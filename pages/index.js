@@ -7,17 +7,20 @@ import {
   BsFillPinMapFill,
   BsFillTelephoneFill,
   BsFillEnvelopeFill,
+  BsChevronRight
 } from 'react-icons/bs';
 import { useState } from 'react';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 
 export default function Home() {
   const [showMenu, setShowMenu] = useState(false);
   const [expand, setExpand] = useState('intro');
+  const router = useRouter();
 
   return (
     <>
-      <div className="mobile_only">
+      {router.pathname !== '/' && <div className="mobile_only">
         <h2>
           <Link href="/">بلقيس حمدي</Link>
         </h2>
@@ -32,16 +35,14 @@ export default function Home() {
             }
           }}
         />
-      </div>
+      </div>}
       {showMenu && (
         <div className="mobile_menu">
           <ul>
             <li>About</li>
-            <li>Education</li>
             <li>Experience</li>
-            <li>Skills</li>
             <li>Projects</li>
-            <li>Awards</li>
+            <li>Contact Me</li>
           </ul>
         </div>
       )}
@@ -249,7 +250,7 @@ export default function Home() {
                   <h4>Eptikar IT Solutions official website</h4>
                   <p>
                     Developed using next JS along with the team, a website that
-                    reflects the companies identity and displays it's
+                    reflects the companies identity and displays it&apos;s
                     achievements, projects and investments.
                   </p>
                 </div>
@@ -259,7 +260,7 @@ export default function Home() {
                 <div>
                   <h4>Mutasim Nimir Centre for Environmental Culture </h4>
                   <p>
-                    a website that showcases the center's programs and history,
+                    a website that showcases the center&apos;s programs and history,
                     developed in the early stages of my career during my
                     internship at Eptikar IT solutions using only pure html and
                     css.
@@ -326,12 +327,35 @@ export default function Home() {
 
       </div>
 
+      <div className={classnames('mobile_only',styles.mobile_home_nav)}>
+        <h2>
+          <Link href="/">بلقيس حمدي</Link>
+        </h2>
+      </div>
       <div className={styles.title}>
         <div>
           <h1>Hello, this is Balqees</h1>
           <h1>
             Welcome to my <span style={{ color: '#FD7013' }}>Portfolio</span>
           </h1>
+          <div className={classnames('mobile_only',styles.mobile_nav_items)}>
+            <Link href='/About' className={styles.mobile_item}>
+              <h4>About</h4>
+              <BsChevronRight/>
+            </Link>
+            <Link href="/Experience" className={styles.mobile_item}>
+              <h4>Experience</h4>
+              <BsChevronRight/>
+            </Link>
+            < Link href="/Projects" className={styles.mobile_item}>
+              <h4>Projects</h4>
+              <BsChevronRight/>
+            </Link>
+            <Link href="/Contact" className={styles.mobile_item}>
+              <h4>Contact Me</h4>
+              <BsChevronRight/>
+            </Link>
+          </div>
         </div>
         <a href="">
           <h4>Download my CV</h4>

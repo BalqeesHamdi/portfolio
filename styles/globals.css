@@ -9,6 +9,7 @@ body {
 
 nav {
   display: flex;
+  justify-content: space-between;
   color: #eee;
   height: 80px;
   width: 100%;
@@ -259,10 +260,8 @@ ul {
 
   .mobile_only {
     display: block;
-    width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 20px;
     font-family: 'Cairo Play', cursive;
     color: #fff;
     align-items: center;
