@@ -255,7 +255,7 @@ export default function Home() {
                     achievements, projects and investments.
                   </p>
                 </div>
-                <img src={`${nextConfig.basepath}/EIT 2022 Wallpaper Dark.png`} />
+                <img src={`${basepath}/EIT 2022 Wallpaper Dark.png`} />
               </div>
               <div className={styles.project}>
                 <div>
