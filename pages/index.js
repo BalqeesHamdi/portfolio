@@ -106,7 +106,7 @@ export default function Home() {
               <div className={styles.experience_Box}>
                 <img
                   className={styles.logo}
-                  src="	https://balqeeshamdi.github.io/Eptikar-IT-Solutions-Logo.svg"
+                  src="/Eptikar-IT-Solutions-Logo.svg"
                 />
                 <div>
                   <h4>Eptikar IT Solutions - Sudan</h4>
