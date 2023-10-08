@@ -218,6 +218,10 @@
     margin-bottom: 12px;
     width: 100%;
   }
+  .content{
+    font-size: 16px;
+  }
+  
 }
 
 @keyframes fadeIn {

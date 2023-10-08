@@ -44,10 +44,10 @@
 }
 
 @media (max-width: 600px) {
+   
     .two_columns div,.row div{
         width: 100% !important;
     }
-
     .row div {
         margin-right: 0 !important;
     }

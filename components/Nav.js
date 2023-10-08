@@ -83,12 +83,18 @@ const Nav = () => {
       {showMenu && (
         <div className="mobile_menu">
           <ul>
-            <li>About</li>
-            <li>Education</li>
-            <li>Experience</li>
-            <li>Skills</li>
-            <li>Projects</li>
-            <li>Awards</li>
+            <li>
+              <Link href="/About">About</Link>
+            </li>
+            <li>
+              <Link href="/Experience">Experience</Link>
+            </li>
+            <li>
+              <Link href="Projects">Projects</Link>
+            </li>
+            <li>
+              <Link href="/Contact">Contact me</Link>
+            </li>
           </ul>
         </div>
       )}

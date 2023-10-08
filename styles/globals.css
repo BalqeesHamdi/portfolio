@@ -285,6 +285,10 @@ ul {
 }
 
 @media (max-width: 600px) {
+   p {
+    font-size: 16px !important;
+    line-height: 1.4em;
+}
   .hide_desktop {
     display: flex !important;
   }
@@ -300,5 +304,8 @@ ul {
 
   .back_arrow{
     font-size: 28px;
+}
+.circles{
+  height: 140%;
 }
 }
