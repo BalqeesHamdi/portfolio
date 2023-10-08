@@ -11,7 +11,7 @@ export const WEBPROJECTS = [
   { name: 'ECCS', description: 'European Chamber of Commerce in Sudan official website', coverPhoto: './eccs.png',url:'https://eccs.sd/',type:'Team Efforts',status:'Live' },
   { name: 'Sudan National Business Agenda', description: 'The project\'s official website', coverPhoto: './nba.png',url:'',type:'Team Efforts',status:'Private' },
   { name: 'My Personal Portfolio V 1.0', description: 'The previous version of my portfolio', coverPhoto: './portfolio.png',url:'',type:'Individual Efforts',status:'Unpublished' },
-  { name: 'My Personal Portfolio V 2.0', description: 'This current version of my portfolio', coverPhoto: './portfolio_2.png',url:'/',type:'Individual Efforts',status:'Live' },
+  { name: 'My Personal Portfolio V 2.0', description: 'This current version of my portfolio', coverPhoto: './portfolio_2.png',url:'./',type:'Individual Efforts',status:'Live' },
   { name: 'Bawader ICT Solutions', description: 'The company\'s official website', coverPhoto: './bawader_ict.png',url:'',type:'Team Efforts',status:'Unpublished' },
   { name: 'Kwenda', description: 'Flight Booking Engine', coverPhoto: './kwenda.png',url:'',type:'Team Efforts',status:'Private' },
 ];

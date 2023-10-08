@@ -4,22 +4,36 @@ import classNames from 'classnames';
 
 const Project = ({props}) => {
   const {name,description,coverPhoto,url,type,status}= props;
-  return (
-    <a
-      href={url}
-      className={classNames(styles.project_card, styles.unisize,'tooltip')}
-      style={status !== 'Live' && status !== 'Figma' ? {cursor:'default'}:{}} rel="noreferrer noopener" 
-      target='_blank'
-    >
-      <div className={styles.card_img}>
-        <img src={coverPhoto} />
+  if (url !==''){
+    return (   
+      <a
+        href={url}
+        className={classNames(styles.project_card, styles.unisize,'tooltip')}
+        style={status !== 'Live' && status !== 'Figma' ? {cursor:'default'}:{}} rel="noreferrer noopener" 
+        target='_blank'
+      >
+        <div className={styles.card_img}>
+          <img src={coverPhoto} />
+        </div>
+        <h2 className={styles.card_title}>{name} {type && <p>{type}</p>}</h2>
+        <p style={{width:'90%'}}>{description}</p>
+        <span class="bottom-tooltip-text">{status}</span>
+      </a>
+    );
+  }else {
+    return(
+      <div
+        className={classNames(styles.project_card, styles.unisize,'tooltip')}
+      >
+        <div className={styles.card_img}>
+          <img src={coverPhoto} />
+        </div>
+        <h2 className={styles.card_title}>{name} {type && <p>{type}</p>}</h2>
+        <p style={{width:'90%'}}>{description}</p>
+        <span class="bottom-tooltip-text">{status}</span>
       </div>
-      <h2 className={styles.card_title}>{name} {type && <p>{type}</p>}</h2>
-      <p style={{width:'90%'}}>{description}</p>
-      <span class="bottom-tooltip-text">{status}</span>
-    </a>
-    
-  );
+    );
+  }
 };
 
 export default Project;
