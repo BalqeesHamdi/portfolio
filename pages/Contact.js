@@ -31,7 +31,7 @@ const Contact = () => {
             </div>
             <div>
               <p className={styles.contact_details_title}>Send me an Email </p>
-              <p>Balqees.icode@gmail.com</p>
+              <p>Balqeessaber@gmail.com</p>
             </div>
           </div>
           <div className={styles.contact_details_box}>
