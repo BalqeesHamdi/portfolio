@@ -358,10 +358,10 @@ export default function Home() {
             </Link>
           </div>
         </div>
-        <a href="/Balqees_Sabir_Web_Developer.pdf" className={styles.link}>
+        <a href="./Balqees_Sabir_Web_Developer.pdf" className={styles.link}>
           <h4>Download my CV</h4>
         </a>
-        <a href="/Balqees_Sabir_Portfolio.pdf" >
+        <a href="./Balqees_Sabir_Portfolio.pdf" >
           <h4>Download my UI/UX Portfolio</h4>
         </a>
       </div>
