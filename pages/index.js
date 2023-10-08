@@ -244,7 +244,7 @@ export default function Home() {
                     in different fields.
                   </p>
                 </div>
-                <img src="/final.png" />
+                <img src="./final.png" />
               </div>
               <div className={styles.project}>
                 <div>
@@ -255,7 +255,7 @@ export default function Home() {
                     achievements, projects and investments.
                   </p>
                 </div>
-                <img src={`${basepath}/EIT 2022 Wallpaper Dark.png`} />
+                <img src="./EIT 2022 Wallpaper Dark.png" />
               </div>
               <div className={styles.project}>
                 <div>
