@@ -253,6 +253,37 @@ ul {
   font-size: 40px;
 }
 
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+
+.tooltip .bottom-tooltip-text {
+  visibility: hidden;
+  background-color: #00000078;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  line-height: 1.4em;
+  border-radius: 8px;
+  padding: 8px 0;
+  position: absolute;
+  font-family: "Almarai", "Open Sans", sans-serif;
+}
+
+.tooltip .bottom-tooltip-text {
+  bottom: -40px;
+  right: 0;
+  z-index: 1;
+  width: 80px;
+}
+
+
+.tooltip:hover .bottom-tooltip-text{
+  visibility: visible;
+}
+
 @media (max-width: 600px) {
   .hide_desktop {
     display: flex !important;

@@ -2,17 +2,23 @@ import React from 'react';
 import styles from '../styles/Projects.module.css';
 import classNames from 'classnames';
 
-const Project = ({name,description,coverPhoto,url,type}) => {
+const Project = ({props}) => {
+  const {name,description,coverPhoto,url,type,status}= props;
   return (
-    <div
-      className={classNames(styles.project_card, styles.unisize)}
+    <a
+      href={url}
+      className={classNames(styles.project_card, styles.unisize,'tooltip')}
+      style={status !== 'Live' && status !== 'Figma' ? {cursor:'default'}:{}} rel="noreferrer noopener" 
+      target='_blank'
     >
       <div className={styles.card_img}>
         <img src={coverPhoto} />
       </div>
-      <h2 className={styles.card_title}>{name} <p>{type}</p></h2>
-      <p>{description}</p>
-    </div>
+      <h2 className={styles.card_title}>{name} {type && <p>{type}</p>}</h2>
+      <p style={{width:'90%'}}>{description}</p>
+      <span class="bottom-tooltip-text">{status}</span>
+    </a>
+    
   );
 };
 

@@ -145,7 +145,7 @@ export default function Home() {
                   </p>
                 </div>
               </div>
-              <Link className={styles.link} href="/experience">
+              <Link className={styles.link} href="/Experience">
                 Find out more
               </Link>
             </div>
@@ -282,7 +282,7 @@ export default function Home() {
                   style={{ backgroundColor: '#EEE', padding: '10px' }}
                 />
               </div>
-              <Link className={styles.link} href="/projects">
+              <Link className={styles.link} href="/Projects">
                 Find out more
               </Link>
             </div>
@@ -357,8 +357,11 @@ export default function Home() {
             </Link>
           </div>
         </div>
-        <a href="">
+        <a href="/Balqees_Sabir_Web_Developer.pdf" className={styles.link}>
           <h4>Download my CV</h4>
+        </a>
+        <a href="/Balqees_Sabir_Portfolio.pdf" className={styles.link}>
+          <h4>Download my UI/UX Portfolio</h4>
         </a>
       </div>
       <ul className="circles">

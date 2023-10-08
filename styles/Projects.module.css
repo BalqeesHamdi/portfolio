@@ -30,9 +30,11 @@
     height: 300px;
     margin: 32px 0;
     /* margin-right: 24px !important; */
-    cursor: pointer;
 }
 
+.pointer{
+    cursor: pointer;
+}
 
 .project_card:nth-child(2) {
     width: 55%;

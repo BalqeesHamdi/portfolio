@@ -162,7 +162,7 @@ const About = () => {
             <div className={styles.skill_title}>
               <h4>Express JS</h4>
               <img
-                src="/expressjs-icon.svg"
+                src="/expressjs.png"
                 style={{ fontSize: '25px', width: '25px' }}
               />
             </div>

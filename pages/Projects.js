@@ -21,7 +21,7 @@ const Projects = (props) => {
           </div>
           <div className={styles.projects}>
             <div
-              className={styles.project_card}
+              className={classNames(styles.project_card,styles.pointer)}
               onClick={() => setShow('uiux-design')}
             >
               <div className={styles.card_img}>
@@ -30,7 +30,9 @@ const Projects = (props) => {
               <h4 className={styles.card_count}>{UIPROJECTS.length}</h4>
               <h2 className={styles.card_title}>UI UX Design</h2>
             </div>
-            <div className={styles.project_card} onClick={() => setShow('web-development')}>
+            <div 
+              className={classNames(styles.project_card,styles.pointer)}
+              onClick={() => setShow('web-development')}>
               <div className={styles.card_img}>
                 <img src="/web_design.jpg" />
               </div>
@@ -69,17 +71,8 @@ const Projects = (props) => {
             {
               UIPROJECTS.map((project,index)=>{
                 return( 
-                  <div key={index}
-                    className={classNames(styles.project_card, styles.unisize)}
-                  >
-                    <a href={project.url}>
-                      <div className={styles.card_img}>
-                        <img src={project.coverPhoto} />
-                      </div>
-                      <h2 className={styles.card_title}>{project.name}</h2>
-                      <p>{project.description}</p>
-                    </a>
-                  </div>);
+                  <Project key={index} props={project}/>
+                );
               })
             }
        
@@ -102,7 +95,7 @@ const Projects = (props) => {
             {
               WEBPROJECTS.map((project,index)=>{
                 return(
-                  <Project key={index} name={project.name} description={project.description} type={project.type} coverPhoto={project.coverPhoto} url={project.url}/>
+                  <Project key={index} props={project}/>
                 );
               })
             }
