@@ -12,6 +12,7 @@ import {
 import { useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
+import nextConfig from '../next.config';
 
 export default function Home() {
   const [showMenu, setShowMenu] = useState(false);
@@ -254,7 +255,7 @@ export default function Home() {
                     achievements, projects and investments.
                   </p>
                 </div>
-                <img src="/EIT 2022 Wallpaper Dark.png" />
+                <img src={`${nextConfig.basepath}/EIT 2022 Wallpaper Dark.png`} />
               </div>
               <div className={styles.project}>
                 <div>
@@ -360,7 +361,7 @@ export default function Home() {
         <a href="/Balqees_Sabir_Web_Developer.pdf" className={styles.link}>
           <h4>Download my CV</h4>
         </a>
-        <a href="/Balqees_Sabir_Portfolio.pdf" className={styles.link}>
+        <a href="/Balqees_Sabir_Portfolio.pdf" >
           <h4>Download my UI/UX Portfolio</h4>
         </a>
       </div>
