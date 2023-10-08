@@ -162,7 +162,7 @@ const About = () => {
             <div className={styles.skill_title}>
               <h4>Express JS</h4>
               <img
-                src="/expressjs.png"
+                src="./expressjs.png"
                 style={{ fontSize: '25px', width: '25px' }}
               />
             </div>
@@ -172,7 +172,7 @@ const About = () => {
             <div className={styles.skill_title}>
               <h4>Next JS</h4>
               <img
-                src="/next.svg"
+                src="./next.svg"
                 style={{ fontSize: '25px', width: '40px' }}
               />
             </div>

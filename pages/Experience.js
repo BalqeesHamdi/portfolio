@@ -18,7 +18,7 @@ const Experience = () => {
               <div className={styles.company_show_header}>
                 <img
                   className={styles.logo}
-                  src="/Eptikar-IT-Solutions-Logo.svg"
+                  src="./Eptikar-IT-Solutions-Logo.svg"
                 />
                 <div>
                   <h4>Eptikar IT Solutions - Sudan</h4>
@@ -59,7 +59,7 @@ const Experience = () => {
               <div className={styles.company_show_header}>
                 <img
                   className={styles.logo}
-                  src="/tana.png"
+                  src="./tana.png"
                 />
                 <div>
                   <h4>Tana Water Tanks - Sudan</h4>
@@ -102,7 +102,7 @@ const Experience = () => {
               <div className={styles.company_show_header}>
                 <img
                   className={styles.logo}
-                  src="/Telekom_Malaysia-Logo.wine.png"
+                  src="./Telekom_Malaysia-Logo.wine.png"
                 />
                 <div>
                   <h4>Telekom Applied Business SDN BHD - Malaysia</h4>
@@ -126,7 +126,7 @@ const Experience = () => {
           <div className={styles.experience_Box} onClick={()=>setShow('EIT')}>
             <img
               className={styles.logo}
-              src="/Eptikar-IT-Solutions-Logo.svg"
+              src="./Eptikar-IT-Solutions-Logo.svg"
             />
             <div>
               <h4>Eptikar IT Solutions - Sudan</h4>
@@ -136,7 +136,7 @@ const Experience = () => {
             </div>
           </div>
           <div className={styles.experience_Box} onClick={()=>setShow('tana')}>
-            <img className={styles.logo} src="/tana.png" />
+            <img className={styles.logo} src="./tana.png" />
             <div>
               <h4>Tana Water Tanks - Sudan</h4>
               <p>
@@ -147,7 +147,7 @@ const Experience = () => {
           <div className={styles.experience_Box} onClick={()=>setShow('telekom')}>
             <img
               className={styles.logo}
-              src="/Telekom_Malaysia-Logo.wine.png"
+              src="./Telekom_Malaysia-Logo.wine.png"
             />
             <div>
               <h4>Telekom Applied Business SDN BHD - Malaysia</h4>

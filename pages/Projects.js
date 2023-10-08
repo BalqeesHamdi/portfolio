@@ -25,7 +25,7 @@ const Projects = (props) => {
               onClick={() => setShow('uiux-design')}
             >
               <div className={styles.card_img}>
-                <img src="/uiux_design.jpg" />
+                <img src="./uiux_design.jpg" />
               </div>
               <h4 className={styles.card_count}>{UIPROJECTS.length}</h4>
               <h2 className={styles.card_title}>UI UX Design</h2>
@@ -34,7 +34,7 @@ const Projects = (props) => {
               className={classNames(styles.project_card,styles.pointer)}
               onClick={() => setShow('web-development')}>
               <div className={styles.card_img}>
-                <img src="/web_design.jpg" />
+                <img src="./web_design.jpg" />
               </div>
               <h4 className={styles.card_count}>{WEBPROJECTS.length}</h4>
               <h2 className={styles.card_title}>Web Development</h2>

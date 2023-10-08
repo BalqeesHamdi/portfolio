@@ -107,7 +107,7 @@ export default function Home() {
               <div className={styles.experience_Box}>
                 <img
                   className={styles.logo}
-                  src="/Eptikar-IT-Solutions-Logo.svg"
+                  src="./Eptikar-IT-Solutions-Logo.svg"
                 />
                 <div>
                   <h4>Eptikar IT Solutions - Sudan</h4>
@@ -122,7 +122,7 @@ export default function Home() {
                 </div>
               </div>
               <div className={styles.experience_Box}>
-                <img className={styles.logo} src="/tana.png" />
+                <img className={styles.logo} src="./tana.png" />
                 <div>
                   <h4>Tana Water Tanks - Sudan</h4>
                   <p style={{ fontWeight: 600 }}>
@@ -134,7 +134,7 @@ export default function Home() {
               <div className={styles.experience_Box}>
                 <img
                   className={styles.logo}
-                  src="/Telekom_Malaysia-Logo.wine.png"
+                  src="./Telekom_Malaysia-Logo.wine.png"
                 />
                 <div>
                   <h4>Telekom Applied Business SDN BHD - Malaysia</h4>
@@ -267,7 +267,7 @@ export default function Home() {
                     css.
                   </p>
                 </div>
-                <img src="/mnec.png" />
+                <img src="./mnec.png" />
               </div>
               <div className={styles.project}>
                 <div>
@@ -279,7 +279,7 @@ export default function Home() {
                   </p>
                 </div>
                 <img
-                  src="/eccs_logo.png"
+                  src="./eccs_logo.png"
                   style={{ backgroundColor: '#EEE', padding: '10px' }}
                 />
               </div>
