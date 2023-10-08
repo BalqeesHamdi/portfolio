@@ -7,7 +7,7 @@ const nextConfig = {
   images:{
     unoptimized:true
   },
-  basePath: isProd?'/portfolio':'',
+  basePath: '/portfolio',
   // Optional: Change links `/me` -> `/me/` and emit `/me.html` -> `/me/index.html`
   // trailingSlash: true,
  
