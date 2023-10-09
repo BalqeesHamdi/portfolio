@@ -53,18 +53,24 @@
 }
 
 .unisize .card_title {
-    padding-bottom: 20px;
-    border-bottom: solid 1px #eee;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.card_title p {
+.project_tag {
     font-size: 12px;
     padding: 10px;
     background-color: rgba(255, 255, 255, 0.466);
     border-radius: 25px;
+}
+
+.title_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid 1px #eee;
+    margin-bottom: 20px;
 }
 
 .unisize:first-child {
@@ -94,6 +100,7 @@
 @media (max-width: 600px) {
     .project_card {
         width: 100% !important;
+        margin-bottom: 64px;
     }
 
     .main_title {
@@ -112,5 +119,9 @@
     .title_section div h1 {
         width: 90%;
     }
-
+    .project_tag{
+        font-size: 10px !important;
+        min-width: fit-content;
+        margin-left: 12px;
+    } 
 }

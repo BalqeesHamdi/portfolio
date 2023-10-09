@@ -15,7 +15,10 @@ const Project = ({props}) => {
         <div className={styles.card_img}>
           <img src={coverPhoto} />
         </div>
-        <h2 className={styles.card_title}>{name} {type && <p>{type}</p>}</h2>
+        <div className={styles.title_wrapper}>
+          <h2 className={styles.card_title}>{name}</h2>
+          {type && <p className={styles.project_tag}>{type}</p>}
+        </div>
         <p style={{width:'90%'}}>{description}</p>
         <span class="bottom-tooltip-text">{status}</span>
       </a>
@@ -28,7 +31,10 @@ const Project = ({props}) => {
         <div className={styles.card_img}>
           <img src={coverPhoto} />
         </div>
-        <h2 className={styles.card_title}>{name} {type && <p>{type}</p>}</h2>
+        <div className={styles.title_wrapper}>
+          <h2 className={styles.card_title}>{name}</h2>
+          {type && <p className={styles.project_tag}>{type}</p>}
+        </div>
         <p style={{width:'90%'}}>{description}</p>
         <span class="bottom-tooltip-text">{status}</span>
       </div>
