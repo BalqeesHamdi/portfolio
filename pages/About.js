@@ -121,42 +121,42 @@ const About = () => {
               <h4>React</h4>
               <FaReact style={{ fontSize: '25px' }} />
             </div>
-            <p>For web application development</p>
+            <p>Front-end JavaScript library for building user interfaces</p>
           </div>
           <div className={styles.skill_block}>
             <div className={styles.skill_title}>
               <h4>React Native</h4>
               <FaReact style={{ fontSize: '25px' }} />
             </div>
-            <p>For mobile apps development</p>
+            <p>UI software framework for mobile applications</p>
           </div>
           <div className={styles.skill_block}>
             <div className={styles.skill_title}>
               <h4>MongoDB</h4>
               <DiMongodb style={{ fontSize: '25px' }} />
             </div>
-            <p>For mobile apps development</p>
+            <p>Cross-platform document-oriented database</p>
           </div>
           <div className={styles.skill_block}>
             <div className={styles.skill_title}>
               <h4>Node</h4>
               <FaNodeJs style={{ fontSize: '25px' }} />
             </div>
-            <p>For backend development</p>
+            <p>Open-source server environment</p>
           </div>
           <div className={styles.skill_block}>
             <div className={styles.skill_title}>
               <h4>Java Script</h4>
               <FaJs style={{ fontSize: '25px' }} />
             </div>
-            <p>For mobile apps development</p>
+            <p>Programming language</p>
           </div>
           <div className={styles.skill_block}>
             <div className={styles.skill_title}>
               <h4>UI / UX Design</h4>
               <FaPaintBrush style={{ fontSize: '25px' }} />
             </div>
-            <p>For mobile apps development</p>
+            <p>User experience & user interface design</p>
           </div>
           <div className={styles.skill_block}>
             <div className={styles.skill_title}>
@@ -166,7 +166,7 @@ const About = () => {
                 style={{ fontSize: '25px', width: '25px' }}
               />
             </div>
-            <p>For backend development</p>
+            <p>Back end web application framework</p>
           </div>
           <div className={styles.skill_block}>
             <div className={styles.skill_title}>
@@ -176,62 +176,62 @@ const About = () => {
                 style={{ fontSize: '25px', width: '40px' }}
               />
             </div>
-            <p>For mobile apps development</p>
+            <p>Open-source web development framework</p>
           </div>
           <div className={styles.skill_block}>
             <div className={styles.skill_title}>
               <h4>Figma</h4>
               <FaFigma style={{ fontSize: '25px' }} />
             </div>
-            <p>For mobile apps development</p>
+            <p>Wireframing and mockup design</p>
           </div>
           <div className={styles.skill_block}>
             <div className={styles.skill_title}>
               <h4>REST API</h4>
             </div>
-            <p>For backend development</p>
+            <p>Application programming interface</p>
           </div>
           <div className={styles.skill_block}>
             <div className={styles.skill_title}>
               <h4>HTML / CSS</h4>
               <FaHtml5 style={{ fontSize: '25px' }} />
             </div>
-            <p>For mobile apps development</p>
+            <p>For web development</p>
           </div>
           <div className={styles.skill_block}>
             <div className={styles.skill_title}>
               <h4>Illustrator / Photoshop</h4>
               <SiAdobeacrobatreader style={{ fontSize: '25px' }} />
             </div>
-            <p>For mobile apps development</p>
+            <p>For graphic design</p>
           </div>
           <div className={styles.skill_block}>
             <div className={styles.skill_title}>
               <h4>GIT</h4>
               <FaGit style={{ fontSize: '25px' }} />
             </div>
-            <p>For backend development</p>
+            <p>Version control system </p>
           </div>
           <div className={styles.skill_block}>
             <div className={styles.skill_title}>
               <h4>MySQL</h4>
               <SiMysql style={{ fontSize: '25px' }} />
             </div>
-            <p>For mobile apps development</p>
+            <p>Open-source relational database </p>
           </div>
           <div className={styles.skill_block}>
             <div className={styles.skill_title}>
               <h4>Strapi</h4>
               <SiStrapi style={{ fontSize: '25px' }} />
             </div>
-            <p>Open source Headless CMSt</p>
+            <p>Open source Headless CMS</p>
           </div>
           <div className={styles.skill_block}>
             <div className={styles.skill_title}>
               <h4>Project Management</h4>
               <RiBriefcase4Line style={{ fontSize: '25px' }} />
             </div>
-            <p>For mobile apps development</p>
+            <p>Supervise Project life cycle for small teams</p>
           </div>
         </div>
       </div>
