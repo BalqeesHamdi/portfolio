@@ -56,12 +56,12 @@ export default function Home() {
             <h1>About</h1>
             <div className={styles.content}>
               <p>
-                i am a
-                <span style={{ color: '#FD7013' }}>
+                i am a 
+                <span style={{ color: '#FD7013', margin:'0 4px' }}>
                   Front-end Software Developer
                 </span>
                 and a <span style={{ color: '#FD7013' }}> UI-UX designer </span>
-                with 3 years of experience in Web, and Mobile Development using
+                with more than 4 years of experience in Web, and Mobile Development using
                 javascript and libraries like React, React Native and more.
                 Looking for a challenging software development environment where
                 my technical expertise and academic skills will grow and expand.
@@ -79,7 +79,7 @@ export default function Home() {
                   <ul className={styles.contact_us}>
                     <li>
                       <BsFillTelephoneFill className="icon" />
-                      <p>+249 900553618</p>
+                      <p>+20 1064569049</p>
                     </li>
                     <li>
                       <BsFillEnvelopeFill className="icon" />
@@ -87,7 +87,7 @@ export default function Home() {
                     </li>
                     <li>
                       <BsFillPinMapFill className="icon" />
-                      <p>Sudan - Khartoum</p>
+                      <p>Cairo - Egypt</p>
                     </li>
                   </ul>
                 </div>
@@ -358,7 +358,7 @@ export default function Home() {
             </Link>
           </div>
         </div>
-        <a href="./Balqees_Sabir_Web_Developer.pdf" className={styles.footer_link}>
+        <a href="./balqees_software_developer_UI_UX.pdf" target="__blank"className={styles.footer_link}>
           <h4>Download my CV</h4>
         </a>
         <a href="./Balqees_Sabir_Portfolio.pdf" className={styles.footer_link}>
