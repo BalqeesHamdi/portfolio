@@ -12,8 +12,10 @@ export const WEBPROJECTS = [
   { name: 'Sudan National Business Agenda', description: 'The project\'s official website', coverPhoto: './nba.png',url:'',type:'Team Efforts',status:'Private' },
   { name: 'My Personal Portfolio V 1.0', description: 'The previous version of my portfolio', coverPhoto: './portfolio.png',url:'',type:'Individual Efforts',status:'Unpublished' },
   { name: 'My Personal Portfolio V 2.0', description: 'This current version of my portfolio', coverPhoto: './portfolio_2.png',url:'./',type:'Individual Efforts',status:'Live' },
-  // { name: 'Bawader ICT Solutions', description: 'The company\'s official website', coverPhoto: './bawader_ict.png',url:'',type:'Team Efforts',status:'Unpublished' },
-  // { name: 'Kwenda', description: 'Flight Booking Engine', coverPhoto: './kwenda.png',url:'',type:'Team Efforts',status:'Private' },
+  { name: 'Bawader ICT Solutions', description: 'The company\'s official website', coverPhoto: './bawader_ict.png',url:'https://bawaderict.com/',type:'Team Efforts',status:'Live' },
+  { name: 'Kwenda', description: 'Flight Booking Engine', coverPhoto: './kwenda.png',url:'https://gokwenda.com/',type:'Team Efforts',status:'Live' },
+  { name: 'Abugisseisa Consultancy', description: 'The company\'s official website', coverPhoto: './abugisseisaconsultancy.png',url:'https://abugisseisaconsultancy.com/',type:'Individual Efforts',status:'Live' },
+  { name: 'Safi Aabugisseisa Law Firm', description: 'The Firm\'s official website', coverPhoto: './safiaabugisseisa.png',url:'https://www.safiaabugisseisa.com/',type:'Individual Efforts',status:'Live' },
 ];
 
 export const UIPROJECTS = [
@@ -35,4 +37,8 @@ export const UIPROJECTS = [
   // { name: 'Kwenda', description: 'Flight Booking Engine', coverPhoto: './kwenda.png',url:'',status:'Private' },
   // { name: 'Bawader ICT Solutions', description: 'The company\'s official website', coverPhoto: './bawader_ict.png',url:'',status:'Private' },
   { name: 'Ideal Skin Services', description: 'Beauty Salon Booking Website', coverPhoto: './idealskinservices.png',url:'https://www.figma.com/file/KhGQ9f9d0nH24V30Iq27mM/Ideal-Skin-Services?type=design&node-id=0%3A1&mode=design&t=9ZgECD59Wz2l1Vvf-1',status:'Figma' },
+  { name: 'Bawader ICT Solutions', description: 'The company\'s official website', coverPhoto: './bawader_ict.png',url:'https://bawaderict.com/',type:'Team Efforts',status:'Live' },
+  { name: 'Kwenda', description: 'Flight Booking Engine', coverPhoto: './kwenda.png',url:'https://gokwenda.com/',type:'Team Efforts',status:'Live' },
+  { name: 'Abugisseisa Consultancy', description: 'The company\'s official website', coverPhoto: './abugisseisaconsultancy.png',url:'https://abugisseisaconsultancy.com/',type:'Individual Efforts',status:'Live' },
+  { name: 'Safi Aabugisseisa Law Firm', description: 'The Firm\'s official website', coverPhoto: './safiaabugisseisa.png',url:'https://www.safiaabugisseisa.com/',type:'Individual Efforts',status:'Live' },
 ];
